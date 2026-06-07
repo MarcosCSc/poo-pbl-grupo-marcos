@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: domain.DinheiroTest
+Test set: domain.DespesaTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in domain.DinheiroTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 s -- in domain.DespesaTest

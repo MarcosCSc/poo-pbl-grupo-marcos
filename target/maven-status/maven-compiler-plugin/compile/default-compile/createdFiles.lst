@@ -1,4 +1,6 @@
 domain\entities\Membro.class
+application\RegistrarDespesaUseCase.class
 domain\entities\Despesa.class
+infrastructure\GrupoRepositorio.class
 domain\aggregates\Grupo.class
 domain\valueobjects\Dinheiro.class

@@ -1,0 +1,10 @@
+{
+  "curso": "Bacharelado em Ciência da Computação",
+  "disciplina": "Orientação a Objetos",
+  "tema_escolhido": "10",
+  "linguagem": "Java",
+  "gerenciador_dependencias": "Maven",
+  "integrantes": [
+    {"nome": "Marcos André Fialho da Silva Junior", "github_username": "MarcosCSc"}
+  ]
+}

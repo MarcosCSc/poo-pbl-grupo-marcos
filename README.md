@@ -1,10 +1,11 @@
-# poo-pbl-grupo-marcos
+# Sistema de Finanças Coletivas
 
-Projeto Prático Integrador - Orientação a Objetos
+Projeto Prático Integrador - Orientação a Objetos  
 Tema 10: Aplicativo de Finanças Coletivas para Repúblicas ou Grupos de Viagem
 
 ## Descrição
-Sistema para divisão de despesas entre membros de um grupo, calculando quem deve quanto para quem de forma justa.
+Sistema para divisão de despesas entre membros de um grupo.
+Registra gastos, calcula quem deve quanto para quem e gerencia o saldo de cada participante.
 
 ## Tecnologias
 - Java 17
@@ -17,15 +18,22 @@ Sistema para divisão de despesas entre membros de um grupo, calculando quem dev
 mvn clean test
 ```
 
-## Estrutura do Projeto
+## Arquitetura DDD
+- **Entities:** `Membro`, `Despesa`
+- **Value Object:** `Dinheiro` (imutável, evita erros de arredondamento com BigDecimal)
+- **Aggregate Root:** `Grupo` (controla membros e despesas)
+- **Application:** Casos de uso
+- **Infrastructure:** Repositórios
+
+## Estrutura
 ```
 src/
 ├── domain/
-│   ├── valueobjects/   <- Value Objects (ex: Dinheiro)
-│   ├── entities/       <- Entidades (ex: Membro, Despesa)
-│   └── aggregates/     <- Aggregate Root (ex: Grupo)
-├── application/        <- Casos de uso
-├── infrastructure/     <- Repositórios
-└── presentation/       <- Interface gráfica
-tests/                  <- Testes unitários (TDD)
+│   ├── valueobjects/   
+│   ├── entities/       
+│   └── aggregates/     
+├── application/        
+├── infrastructure/     
+└── presentation/       
+tests/                  
 ```

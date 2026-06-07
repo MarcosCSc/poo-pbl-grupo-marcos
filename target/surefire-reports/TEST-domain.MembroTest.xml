@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="domain.DinheiroTest" time="0.049" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="domain.MembroTest" time="0.008" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,10 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="deveSomarCorretamente" classname="domain.DinheiroTest" time="0.027"/>
-  <testcase name="deveLancarExcecaoAoDividirPorZero" classname="domain.DinheiroTest" time="0.001"/>
-  <testcase name="deveCriarDinheiroValido" classname="domain.DinheiroTest" time="0.001"/>
-  <testcase name="deveLancarExcecaoParaValorNulo" classname="domain.DinheiroTest" time="0.002"/>
-  <testcase name="deveDividirCorretamente" classname="domain.DinheiroTest" time="0.001"/>
-  <testcase name="deveLancarExcecaoParaValorNegativo" classname="domain.DinheiroTest" time="0.001"/>
+  <testcase name="deveLancarExcecaoParaNomeVazio" classname="domain.MembroTest" time="0.001"/>
+  <testcase name="deveTerIdUnico" classname="domain.MembroTest" time="0.001"/>
+  <testcase name="deveLancarExcecaoParaNomeNulo" classname="domain.MembroTest" time="0.002"/>
+  <testcase name="deveCriarMembroValido" classname="domain.MembroTest" time="0.001"/>
 </testsuite>

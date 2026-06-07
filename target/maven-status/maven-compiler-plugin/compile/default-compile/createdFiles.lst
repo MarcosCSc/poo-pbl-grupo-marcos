@@ -1,4 +1,0 @@
-domain\entities\Membro.class
-domain\entities\Despesa.class
-domain\aggregates\Grupo.class
-domain\valueobjects\Dinheiro.class
